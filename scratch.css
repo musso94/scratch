@@ -1,0 +1,235 @@
+/*SWIPE*/
+.swipe-area { 
+    position: absolute; 
+    width: 369px; 
+    height: 371px; 
+    left: 895px;
+    top: 130px;
+    z-index: 15;
+    background: url('images/sc-bg1.png') no-repeat;
+    background-size: 100%;
+}
+.anim-container { 
+    position: absolute; 
+    width: 360px; 
+    height: 366px; 
+    right: 5px; 
+    top: 5px;
+    z-index: -1;
+    background-size: 100%;
+    overflow: hidden;
+}
+.cbox-arrow {
+    position: absolute;
+    left: 56px;
+    top: 0;
+    z-index: -1;
+    width: 260px;
+    height: 264px;
+    background: url('images/arrow.png') no-repeat;
+    background-size: 100%;
+   -webkit-animation: 10s slide;
+}
+.cbox-text-1 {
+    position: absolute;
+    left: 72px;
+    top: 100px;
+    z-index: -1;
+    width: 230px;
+    height: 65px;
+    background: url('images/test1.png') no-repeat;
+    background-size: 100%;
+    opacity: 1;
+}
+.cbox-text-2 {
+    position: absolute;
+    left: 72px;
+    top: 100px;
+    z-index: -1;
+    width: 230px;
+    height: 65px;
+    background: url('images/test2.png') no-repeat;
+    background-size: 100%;
+    opacity: 0;
+}
+.cbox-box-1 {
+    position: absolute;
+    left: 55px;
+    top: 167px;
+    z-index: -1;
+    width: 257px;
+    height: 65px;
+    background: url('images/box1.png') no-repeat;
+    background-size: 100%;
+    opacity: 0;
+}
+.cbox-box-2 {
+    position: absolute;
+    left: 135px;
+    top: 124px;
+    z-index: -1;
+    width: 99px;
+    height: 127px;
+    background: url('images/box2.png') no-repeat;
+    background-size: 100%;
+    opacity: 0;
+}
+.hidden {
+    display: none !important;
+}
+.fade-in {
+    -webkit-animation:1.5s 2.5s fade;
+    -o-animation:1.5s 2.5s fade;
+    -moz-animation:1.5s 2.5s fade;
+    -ms-animation:1.5s 2.5s fade;
+    animation:1.5s 2.5s fade;
+}
+.fade-in-one {
+    -webkit-animation:2.5s 5s fade;
+    -o-animation:2.5s 5s fade;
+    -moz-animation:2.5s 5s fade;
+    -ms-animation:2.5s 5s fade;
+    animation:2.5s 5s fade;
+}
+.fade-in-two {
+    -webkit-animation:2.5s 7.5s fade-alt forwards;
+    -o-animation:2.5s 7.5s fade-alt forwards;
+    -moz-animation:2.5s 7.5s fade-alt forwards;
+    -ms-animation:2.5s 7.5s fade-alt forwards;
+    animation:2.5s 7.5s fade-alt forwards;
+}
+.fade-in-three {
+    -webkit-animation:5s 15s fade;
+    -o-animation:5s 15s fade;
+    -moz-animation:5s 15s fade;
+    -ms-animation:5s 15s fade;
+    animation:5s 15s fade;
+}
+.reveal-it {
+    -webkit-animation:2.5s reveal forwards;
+    -o-animation:2.5s reveal forwards;
+    -moz-animation:2.5s reveal forwards;
+    -ms-animation:2.5s reveal forwards;
+    animation:2.5s reveal forwards;
+}
+.slide-it {
+    -webkit-animation:5s slide-in forwards;
+    -o-animation:5s slide-in forwards;
+    -moz-animation:5s slide-in forwards;
+    -ms-animation:5s slide-in forwards;
+    animation:5s slide-in forwards;
+}
+
+/*HACKS*/
+.newslisting, #sidebar1Bottom {
+    background: #ffffff !important;
+}
+.tmx header {
+    height: 269px;
+}
+/*ANIMATION*/
+@-webkit-keyframes fade-alt { 
+    0%{ opacity: 0;}
+    10%{ opacity: 1;}
+    100%{ opacity: 1;}
+}
+@-moz-keyframes fade-alt { 
+    0%{ opacity: 0;}
+    10%{ opacity: 1;}
+    100%{ opacity: 1;}
+}
+@-o-keyframes fade-alt { 
+    0%{ opacity: 0;}
+    10%{ opacity: 1;}
+    100%{ opacity: 1;}
+}
+@-ms-keyframes fade-alt { 
+    0%{ opacity: 0;}
+    10%{ opacity: 1;}
+    100%{ opacity: 1;}
+}
+@keyframes fade-alt { 
+    0%{ opacity: 0;}
+    10%{ opacity: 1;}
+    100%{ opacity: 1;}
+}
+@-webkit-keyframes fade { 
+    0%{ opacity: 0;}
+    10%{ opacity: 1;}
+    90%{ opacity: 1;}
+    100%{opacity: 0;}
+}
+@-o-keyframes fade { 
+    0%{ opacity: 0;}
+    10%{ opacity: 1;}
+    90%{ opacity: 1;}
+    100%{opacity: 0;}
+}
+@-moz-keyframes fade { 
+    0%{ opacity: 0;}
+    10%{ opacity: 1;}
+    90%{ opacity: 1;}
+    100%{opacity: 0;}
+}
+@-ms-keyframes fade { 
+    0%{ opacity: 0;}
+    10%{ opacity: 1;}
+    90%{ opacity: 1;}
+    100%{opacity: 0;}
+}
+@keyframes fade { 
+    0%{ opacity: 0;}
+    10%{ opacity: 1;}
+    90%{ opacity: 1;}
+    100%{opacity: 0;}
+}
+@-webkit-keyframes reveal { 
+    0%{ opacity: 1;}
+    80%{ opacity: 1;}
+    100%{opacity: 0;}
+}
+@-o-keyframes reveal { 
+    0%{ opacity: 1;}
+    80%{ opacity: 1;}
+    100%{opacity: 0;}
+}
+@-moz-keyframes reveal { 
+    0%{ opacity: 1;}
+    80%{ opacity: 1;}
+    100%{opacity: 0;}
+}
+@-ms-keyframes reveal { 
+    0%{ opacity: 1;}
+    80%{ opacity: 1;}
+    100%{opacity: 0;}
+}
+@keyframes reveal { 
+    0%{ opacity: 1;}
+    80%{ opacity: 1;}
+    100%{opacity: 0;}
+}
+@-webkit-keyframes slide-in { 
+    0%{ top: 5px;}
+    80%{ top: 5px;}
+    100%{ top: -150px;}
+}
+@-o-keyframes slide-in { 
+    0%{ top: 5px;}
+    80%{ top: 5px;}
+    100%{ top: -150px;}
+}
+@-ms-keyframes slide-in { 
+    0%{ top: 5px;}
+    80%{ top: 5px;}
+    100%{ top: -150px;}
+}
+@-moz-keyframes slide-in { 
+    0%{ top: 5px;}
+    80%{ top: 5px;}
+    100%{ top: -150px;}
+}
+@keyframes slide-in { 
+    0%{ top: 5px;}
+    80%{ top: 5px;}
+    100%{ top: -150px;}
+}
