@@ -1,10 +1,9 @@
 /*SWIPE*/
 .swipe-area { 
-    position: absolute; 
+    position: relative;
+    margin: 0 auto; 
     width: 369px; 
     height: 371px; 
-    left: 895px;
-    top: 130px;
     z-index: 15;
     background: url('images/sc-bg1.png') no-repeat;
     background-size: 100%;
